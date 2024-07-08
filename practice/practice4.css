@@ -1,0 +1,37 @@
+.header{
+    text-align: center;
+    font-style:italic;
+    font-size: larger;
+    color: rgb(250, 122, 17);
+    /* text-align: justify; */
+    margin-top: 10px;
+    /* background-color: darkgray; */
+
+}
+.my{
+    background-color: rgba(228, 214, 21, 0.226);
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10px;
+}
+.head{
+    background-image: url('undraw_Cloud_hosting_7xb1.png');
+    height: 350px;
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: 100% 300px;
+    background-color: rgba(255, 228, 196, 0.945);
+    /* border: 1px solid black; */
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.main{
+    width: 100%;
+}
+
+.main sec{
+    width: 50%;
+    background-position: left;
+    
+}

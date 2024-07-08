@@ -1,0 +1,55 @@
+.exter{
+    text-align: center;
+    background-color: rgb(141, 247, 141);
+    background-position: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+}
+
+.website{
+    text-align: center;
+    background-color: rgb(185, 170, 170);
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.first{
+    background-color: rgb(184, 231, 253);
+    margin: 10px;
+    text-align: justify;
+    padding: 8px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 35px;
+    box-shadow: top none;
+}
+.second{
+    background-color: rgb(184, 231, 253);
+    margin: 10px;
+    text-align: justify;
+    padding: 8px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 25px;
+}
+.third{
+    background-color: rgb(184, 231, 253);
+    margin: 10px;
+    text-align: justify;
+    padding: 8px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 25px;
+}
+.sit{
+    padding: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

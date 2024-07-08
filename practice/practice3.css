@@ -1,0 +1,54 @@
+.header{
+    height: 300px;
+    background-image: url('s\ words\ logo.jpg');
+    /* background-image: url('../id_front.jpg'); */
+    /* background-size: 70%; */
+    /* background-size: 2%; */
+    background-size: 80% 300px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-color: gray; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */ 
+      /* background-position: bottom; */
+      /* width: 900px; */
+    /* background-blend-mode: multiply; */
+    background-position: center;
+}
+.head{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.content{
+    border: 3px solid black;
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: aquamarine;
+}
+
+#card-name{
+    /* Card */
+position: relative;
+width: 1920px;
+height: 991px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card-box{
+    margin: 200px  auto;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.card-box .image-box{
+    width: 200px;
+}
+.card-box .image-box img {
+    width: 100%;
+}

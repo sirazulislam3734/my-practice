@@ -1,0 +1,43 @@
+.blod{
+    color: rgb(55, 16, 231);
+    text-align:center;
+    background-color: rgb(241, 166, 138);
+    margin-right: 200px;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+.task{
+    text-align: justify;
+    text-align: center;
+    background-color: rgb(181, 224, 210);
+    font-size: large;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#blod{
+    color: rgb(55, 16, 231);
+    text-align:center;
+    background-color: rgb(241, 166, 138);
+    margin-right: 200px;
+    margin-left: 200px;
+    border-radius: 3px;
+}
+
+.order{
+    font-size: xx-large;
+
+}
+.in{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: italic;
+   color: darkblue;
+}
+.border{
+    color: rgb(243, 12, 12);
+    font-weight: 700;
+    font-style:initial;
+}
+.con{
+    color: rgb(228, 6, 228);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
