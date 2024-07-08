@@ -65,23 +65,71 @@ margin: 140px 0px 140px 0px;
 main .main-title{
     margin: 80px 300px 0px 300px;
 }
+
 main .main-title h2, p{
     margin-bottom: 10px;
-}
+} 
 
-
-section .text-title{
+.text-title{
+    max-width: 1200px;
     display: flex;
+    text-align: center;
     align-items: center;
+    justify-content: center;
     text-decoration: underline;
-    margin: 0px 220px 0px 220px;
+    margin: 0px 140px 0px 140px;
 }
 
 .text-title p{
     margin-top: 20px;
-    width: 30%;
+    width: 50%;
 }
 
+#suport{
+    max-width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content:center;
+    margin: 0 auto;
+}
+.suport-lite{
+    
+    margin: 30px 200px 0px 200px;
+    display: flex;
+    gap: 20px;
+    padding: 40px 30px 26px 30px;
+    height:300px ; 
+    justify-content:space-between;
+    align-items: center;
+}
+.image-lite1, .image-lite2, .image-lite3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px 150px 0px 0px;
+}
+.image-lite1 img{
+    width: 250px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 20px 30px 0px 30px;
+}
+.image-lite2 img{
+    width: 250px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 20px 30px 0px 30px;
+}
+.image-lite3 img{
+    width: 250px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+
+background: rgba(71, 125, 17, 0.15);
+    padding: 20px 30px 0px 30px;
+}
 
 /* icon section styles */
 
@@ -96,10 +144,9 @@ section .text-title{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: 45px 70px; */
     gap: 20px;
-    
 }
+
 .image-icon{
     width: 30%;
     display: flex;
@@ -123,6 +170,7 @@ section .text-title{
 /* instagram section styles */
 #instagram{
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 .instagram-image{
@@ -130,7 +178,7 @@ section .text-title{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
 }
 .image-thik img{
     width: 170px;
@@ -160,9 +208,9 @@ section .text-title{
 }
 .picture{
     margin: 50px 0px 50px 0px;
-    /* width: 160px;
-    height: 210px; */
 }
+
+
 .picture img{
     width: 170px;
     height: 280px;
@@ -182,4 +230,71 @@ section .text-title{
     color:rgba(39, 39, 39, 0.6) ;
     margin-bottom: 15px;
     padding: 10px;
+}
+
+/* bannerlite section styles */
+
+#bannerlite{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.bannerlite{
+    background-image: url("/flower-asset/Rectangle\ 9.png");
+    height: 250px;
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.bannerlite img{
+   width: 100%;
+}
+.bannerlite .lite-hi{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 35px;
+}
+.bannerlite .para{
+    text-align: center;
+    padding: 10px;
+}
+.sub-tit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.para{
+    color: rgba(39, 39, 39, 0.6);
+}
+.mit input{
+    padding: 15px;
+    border: none;
+    background: rgb(229, 84, 115);
+    border-radius: 5px;
+    color: white;
+}
+.inp input{
+    padding: 15px;
+    border: none;
+    font-size: 12px;
+    width: 400px;
+    color: rgba(39, 39, 39, 0.6);
+    border-radius: 5px;
+}
+
+/* footer section styles */
+#footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+}
+.footer-section{
+    padding: 100px 200px 100px 200px;
+text-align: center;
+color: white;
+}
+.footer-section p{
+    margin-top: 25px;
 }
