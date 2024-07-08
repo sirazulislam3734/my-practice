@@ -121,6 +121,23 @@ section .text-title{
 }
 
 /* instagram section styles */
+#instagram{
+    max-width: 1200px;
+}
+
+.instagram-image{
+    margin: 30px 200px 0px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.image-thik img{
+    width: 170px;
+    height: 200px;
+    border-radius: 5px;
+}
+
 .instagram h1{
     margin-top: 50px;
     margin-bottom:15px;
@@ -147,8 +164,9 @@ section .text-title{
     height: 210px; */
 }
 .picture img{
-    width: 160px;
-    height: 250px;
+    width: 170px;
+    height: 280px;
+    padding: 30px;
 }
 .text-line{
     text-align: center;
